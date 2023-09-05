@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="/css/base.css"/>
+</head>
+<body>
+    <section class="prompt">
+        <h3>Excercise App</h3>
+        <h1>Sign in</h1>
+        <hr />
+        <form action="/login/password" method="post">
+            <section>
+                <label for"username">UserName</label>
+                <input type="text" name="username" id="username"  autocomplete="current-password" required autofocus/>
+            </section>
+            <section>
+                <label for"password">Password</label>
+                <input type="password" name="password" id="password"  autocomplete="current-password" required autofocus/>
+            </section>
+            <button type="submit">Sign in</button>
+        </form>
+        <hr />
+        <p class="help">Don&apos; have an account?<a href="/signup">Sign Up</a></p>
+    </section>
+    <footer class="info">
+        <p>Created by </p><a href="https://www.linkedin.com/in/psychology-simango-8506461b9/">Psychology Simango</a>
+        <p>Made with love</p>
+        <p>Authentication powered by <a>Passport</a></p>
+        <hr />
+    </footer>
+</body>
+</html>

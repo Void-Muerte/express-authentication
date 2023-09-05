@@ -1,0 +1,6 @@
+# Node
+node_modules
+.env
+var
+# Mac OS X
+.DS_Store
